@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n=10000;
+    int array [n];
+for( int i=400;i<=n;i++)
+{
+    int count=0;
+    for (int j=2,lim=sqrt(i);j<=lim;j++)
+    {
+        if (count<1){array[p]=i;p++}
+
+    } for (int i=0;i<p;i++)
+    {
+        printf("%d\n",array[i]);}
+    }
+    return 0;
+}
+
+
+
+
+}
